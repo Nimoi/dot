@@ -1,0 +1,2 @@
+alias ip="curl ipinfo.io"
+alias weather="curl wttr.in"

@@ -1,0 +1,2 @@
+source ~/scripts/.aliases
+
