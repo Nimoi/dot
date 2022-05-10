@@ -1,0 +1,12 @@
+#!/bin/sh
+
+afk () { 
+  message=AFK
+  why="$*"
+  if [ -n "$why" ]; then
+    message="$why"
+  fi
+  figl "$message"
+}
+afk $*
+
