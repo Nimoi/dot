@@ -1,0 +1,5 @@
+[user]
+    email = n@nimo.is
+    name = Nathaniel Cagle
+[core]
+    editor = /usr/bin/vim
