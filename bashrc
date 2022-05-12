@@ -1,6 +1,6 @@
 export PATH="$HOME/dot/scripts:$PATH"
 
-source ~/scripts/.aliases
+source ~/dot/aliases
 
 # FZF
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash

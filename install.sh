@@ -7,7 +7,7 @@ ln -s "${BASEDIR}"/bashrc ~/.bashrc
 
 # vim
 ln -s "${BASEDIR}"/vimrc ~/.vimrc
-ln -s "${BASEDIR}"/vim/ ~/.vim
+ln -s "${BASEDIR}"/vim ~/.vim
 
 # git
 ln -s "${BASEDIR}"/gitconfig ~/.gitconfig
