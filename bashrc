@@ -1,5 +1,11 @@
 export PATH="$HOME/dot/scripts:$PATH"
 
+export USER="${USER:-$(whoami)}"
+export GITUSER="$USER"
+export DOTFILES="$HOME/dot"
+export SCRIPTS="$DOTFILES/scripts"
+export ZETDIR="$HOME/me/zet"
+
 source ~/dot/aliases
 
 # FZF
@@ -27,17 +33,6 @@ case $- in
     *i*) ;;
       *) return;;
 esac
-
-# don't put duplicate lines or lines starting with space in the history.
-# See bash(1) for more options
-HISTCONTROL=ignoreboth
-
-# append to the history file, don't overwrite it
-shopt -s histappend
-
-# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000
-HISTFILESIZE=2000
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -95,3 +90,11 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# History
+export HISTCONTROL=ignoreboth
+export HISTSIZE=5000
+export HISTFILESIZE=10000
+
+set -o vi
+shopt -s histappend
