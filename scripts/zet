@@ -3,6 +3,6 @@
 isosec=$(isosec)
 mkdir -p "$ZETDIR/$isosec"
 readme="$ZETDIR/$isosec/README.md"
-echo "# $1" > $readme
-echo $readme
-vim $readme
+echo "# $1" > "$readme"
+echo "$readme"
+vim "$readme"

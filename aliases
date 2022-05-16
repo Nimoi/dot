@@ -5,5 +5,9 @@ alias weather="curl wttr.in"
 alias '?'=duck
 alias '??'=google
 alias '???'=bing
-
+alias g="git"
+alias a="git add"
+alias c="git commit"
+alias d="git diff"
+alias s="git status"
 
