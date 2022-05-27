@@ -1,0 +1,3 @@
+#!/bin/sh
+
+# TODO: Recursive search directory for "- [ ]" or "- [X]" in markdown files.
