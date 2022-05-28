@@ -3,5 +3,5 @@
 logs=$(find "$LOGDIR" -name "README.md")
 
 for l in $logs; do 
-    head -n1 $l | xargs echo "$(basename $(dirname $l))"; 
+    head -n1 "$l" | xargs echo "$(basename "$(dirname "$l")")"; 
 done

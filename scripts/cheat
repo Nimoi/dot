@@ -8,6 +8,4 @@ cheat() {
     IFS=+ curl "http://cht.sh/$where/ $*"
 }
 
-cheat $*
-
-
+cheat "$@"
