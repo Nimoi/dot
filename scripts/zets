@@ -1,0 +1,7 @@
+#!/bin/sh
+
+zets=$(find "$ZETDIR" -name "README.md")
+
+for z in $zets; do 
+    head -n1 $z | xargs echo "$(basename $(dirname $z))"; 
+done
