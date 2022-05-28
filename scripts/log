@@ -1,0 +1,8 @@
+#!/bin/sh
+
+isosec=$(isosec)
+mkdir -p "$LOGDIR/$isosec"
+readme="$LOGDIR/$isosec/README.md"
+echo "# $1" > "$readme"
+echo "$readme"
+vim "$readme"
