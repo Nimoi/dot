@@ -6,6 +6,8 @@ export DOTFILES="$HOME/dot"
 export SCRIPTS="$DOTFILES/scripts"
 export ZETDIR="$HOME/me/zet"
 
+export PATH=$PATH:/usr/bin/go/bin
+
 source ~/dot/aliases
 
 # FZF

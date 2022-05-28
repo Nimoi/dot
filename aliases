@@ -11,3 +11,6 @@ alias c="git commit"
 alias d="git diff"
 alias s="git status"
 
+alias td="grep -r \"\- \[ \]\""
+alias tdall="grep -riE '(\- \[ \]|\- \[X\])'"
+alias tdone="grep -ri \"\- \[X\]\""
