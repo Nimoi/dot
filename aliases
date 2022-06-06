@@ -1,10 +1,12 @@
 unalias -a
 
-alias ip="curl ipinfo.io"
+alias ipinfo="curl ipinfo.io"
 alias weather="curl wttr.in"
+
 alias '?'=duck
 alias '??'=google
 alias '???'=bing
+
 alias g="git"
 alias a="git add"
 alias c="git commit"
