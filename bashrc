@@ -6,6 +6,7 @@ export DOTFILES="$HOME/dot"
 export SCRIPTS="$DOTFILES/scripts"
 export ZETDIR="$HOME/me/zet"
 export LOGDIR="$HOME/me/log"
+export POSTDIR="$HOME/me/posts"
 
 export PATH=$PATH:/usr/bin/go/bin
 
@@ -95,6 +96,7 @@ fi
 export HISTCONTROL=ignoreboth
 export HISTSIZE=5000
 export HISTFILESIZE=10000
+export HISTTIMEFORMAT="%Y%m%d %T "
 
 set -o vi
 shopt -s histappend
