@@ -16,3 +16,5 @@ alias s="git status"
 alias td="grep -r \"\- \[ \]\""
 alias tdall="grep -riE '(\- \[ \]|\- \[X\])'"
 alias tdone="grep -ri \"\- \[X\]\""
+
+alias path='echo -e ${PATH//:/\\n}'
