@@ -11,6 +11,7 @@ export POSTDIR="$HOME/me/posts"
 export PATH=$PATH:/usr/bin/go/bin
 
 source ~/dot/aliases
+source ~/dot/local_aliases
 
 # FZF
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
